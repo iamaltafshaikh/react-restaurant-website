@@ -1,16 +1,96 @@
-# React + Vite
+# 🍽️ React Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive restaurant website built using **React**.  
+This project focuses on clean UI, component-based architecture, and mobile responsiveness.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## React Compiler
+- Responsive design (Mobile + Desktop)
+- Home page with hero section
+- Dynamic menu with food cards
+- Order button interaction
+- About & Contact pages
+- Sticky footer layout
+- Clean and reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- JavaScript
+- CSS (Flexbox & Grid)
+- React Router
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ └── MenuCard.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Menu.jsx
+│ ├── About.jsx
+│ └── Contact.jsx
+├── assets/
+│ ├── images.js
+│ └── food images
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/react-restaurant-website.git
+2️⃣ Install dependencies
+npm install
+3️⃣ Start development server
+npm run dev
+📱 Responsive Design
+The website is fully responsive and optimized for:
+
+Mobile phones
+
+Tablets
+
+Desktop screens
+
+🎯 What I Learned
+React component structure
+
+Props & state basics
+
+Dynamic rendering using .map()
+
+React Router navigation
+
+Mobile-first responsive design
+
+Layout management using Flexbox
+
+📌 Future Enhancements
+
+Add cart functionality
+
+Backend integration
+
+Online ordering system
+
+Payment gateway
+
+👤 Author
+
+Altaf Shaikh
+Computer Engineering Student
+📍 India
